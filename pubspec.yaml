@@ -15,6 +15,9 @@ dependencies:
   latlong2: ^0.9.1
   geolocator: ^12.0.0
   http: ^1.2.2
+  get: ^4.6.6
+  google_fonts: any
+  shared_preferences: ^2.1.0
 
 dev_dependencies:
   flutter_test:
@@ -23,3 +26,7 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/watch_5.png
+    - assets/images/jericho.jpeg
+    - assets/images/logo.png

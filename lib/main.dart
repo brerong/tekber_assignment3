@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tekber_assignment3/pages/map_screen.dart';
+import 'package:get/get.dart';
+import 'package:tekber_assignment3/pages/login.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,9 +11,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MapScreen(),
+      home: LogIn(),
     );
   }
 }
